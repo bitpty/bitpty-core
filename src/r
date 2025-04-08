@@ -1,0 +1,8 @@
+perl -p -i -e 's/8332/9772/g' kernel/chainparams.cpp
+perl -p -i -e 's/8332/9772/g' netbase.h
+perl -p -i -e 's/8332/9772/g' rpc/net.cpp
+perl -p -i -e 's/8332/9772/g' test/addrman_tests.cpp
+perl -p -i -e 's/8332/9772/g' test/net_tests.cpp
+perl -p -i -e 's/8332/9772/g' test/net_peer_connection_tests.cpp
+perl -p -i -e 's/8332/9772/g' test/fuzz/addrman.cpp
+perl -p -i -e 's/8332/9772/g' test/netbase_tests.cpp
